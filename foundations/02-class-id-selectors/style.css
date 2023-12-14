@@ -1,0 +1,23 @@
+.odd{
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: salmon;
+    font-size: 1.1rem;
+}
+
+.odd.three{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#four{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;  
+}
+
+#two{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: purple;
+}
