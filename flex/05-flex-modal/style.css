@@ -20,6 +20,33 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.texts{
+  display: flex;
+  flex-direction: column;
+
+  padding: 0.5rem;
+}
+
+.text{
+  font-weight: 500;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.2rem;
+}
+
+.header{
+  font-weight: 900;
+  font-size: large;
 }
 
 .icon {
@@ -31,6 +58,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -48,6 +76,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.buttons{
+  margin-top: 0.5rem;
 }
 
 button {
